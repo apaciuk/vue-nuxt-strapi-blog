@@ -3,7 +3,7 @@
     <div>
       <img src="../assets/images/front.svg" />
       <h2>
-        vue-uikit-nuxt-starter
+        Vue Nuxt UIKit Blog
       </h2>
       <div class="links">
         <a
