@@ -1,9 +1,8 @@
 <template>
-    <div class="container">
+<div class="container">
     <div>
-    
       <h2>
-        Single Blog
+        Contact
       </h2>
       <div class="links">
         <a
