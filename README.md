@@ -1,6 +1,6 @@
 # Vue Nuxt Blog with Strapi and UIKit
 
-Vue Starter with Vue Nuxt UIKit, Strapi API, Axios set up and some other useful card components, easily altered basic templates for different designs with UIKit (or others, replace UIKit and layouts)
+Vue JS Blog with Vue Nuxt UIKit, Strapi API, Axios set up, Auth0 and some other useful card components, easily altered basic templates for different designs with UIKit (or others, replace UIKit and layouts)
 
 # Demo sandbox view
 
