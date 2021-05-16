@@ -21,7 +21,7 @@ export default {
 box-sizing: border-box;
 }
 .main-content {
-margin-top: 115px;
+margin-top: 118px;
 
 }
 </style>
