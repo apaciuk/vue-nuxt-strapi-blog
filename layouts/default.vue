@@ -1,11 +1,13 @@
 <template>
 <body data-uk-filter="target: .js-filter; animation: fade">
-  <main class="main-content">
-  <BaseHeader />
-  <Nuxt />
- <OffCanvas />
+ <div>
+<BaseHeader />
+ <main class="main-content">
+ <Nuxt />
+ </main>
+  <OffCanvas />
   <BaseFooter />
-  </main>
+</div>
 </body>
 </template>
 <script>
@@ -17,6 +19,10 @@ export default {
 <style>
 * {
 box-sizing: border-box;
+}
+.main-content {
+margin-top: 115px;
+
 }
 </style>
 

@@ -1,73 +1,67 @@
 <template>
-  <div class="container">
-    <div>
-      <img src="../assets/images/front.svg" />
-      <h2>
-        Vue Nuxt UIKit Blog
-      </h2>
-      <div class="links">
-        <a
-          href="https://nuxtjs.org/"
-          target="_blank"
-          rel="noopener noreferrer"
-          class="button--green"
-        >
-          Documentation
-        </a>
-        <a
-          href="https://github.com/nuxt/nuxt.js"
-          target="_blank"
-          rel="noopener noreferrer"
-          class="button--grey"
-        >
-          GitHub
-        </a>
-      </div>
-    </div>
+<!--CARDS WRAPPER-->
+ <div class="uk-container uk-container-expand">
+	<div class="uk-grid uk-grid-medium uk-child-width-1-2@s uk-child-width-1-3@m uk-child-width-1-4@l  uk-child-width-1-5@xl uk-grid-match js-filter" data-uk-grid="masonry: true" data-uk-sortable="handle: .drag-icon">
+  <PostPreview v-for="post in posts"
+   :key="post.id"
+   :title="post.title"
+   :excerpt="post.excerpt"
+   :thumbnailURL="post.thumbnailURL"
+   :content="post.content"
+   :id="post.id" />
+  </div>
   </div>
 </template>
-
 <script>
-export default {}
+export default {
+  data () {
+    return {
+      posts: [
+        {
+        title: "A New Beginning",
+        excerpt: "This will be awesome",
+        content: "Curabitur non nulla sit amet nisl tempus convallis quis ac lectus. Vivamus suscipit tortor eget felis porttitor volutpat. Vivamus suscipit tortor eget felis porttitor volutpat. Proin eget tortor risus. Donec rutrum congue leo eget malesuada. Curabitur aliquet quam id dui posuere blandit.",
+        thumbnailURL: "https://picsum.photos/400/300",
+        id: "a-new-beginning"
+        },
+        {
+        title: "A Old Beginning",
+        excerpt: "This will be even more awesome",
+        content: "Curabitur non nulla sit amet nisl tempus convallis quis ac lectus. Vivamus suscipit tortor eget felis porttitor volutpat. Vivamus suscipit tortor eget felis porttitor volutpat. Proin eget tortor risus. Donec rutrum congue leo eget malesuada. Curabitur aliquet quam id dui posuere blandit.",
+        thumbnailURL: "https://picsum.photos/400/300",
+        id: "an-old-beginning"
+      },
+      {
+        title: "A Older Ending",
+        excerpt: "This will be really awesome",
+        content: "Curabitur non nulla sit amet nisl tempus convallis quis ac lectus. Vivamus suscipit tortor eget felis porttitor volutpat. Vivamus suscipit tortor eget felis porttitor volutpat. Proin eget tortor risus. Donec rutrum congue leo eget malesuada. Curabitur aliquet quam id dui posuere blandit.",
+        thumbnailURL: "https://picsum.photos/400/300",
+        id: "an-older-beginning"
+      },
+        {
+        title: "A New Fangled Ending",
+        excerpt: "This will be really wierd",
+        content: "Curabitur non nulla sit amet nisl tempus convallis quis ac lectus. Vivamus suscipit tortor eget felis porttitor volutpat. Vivamus suscipit tortor eget felis porttitor volutpat. Proin eget tortor risus. Donec rutrum congue leo eget malesuada. Curabitur aliquet quam id dui posuere blandit.",
+        thumbnailURL: "https://picsum.photos/400/300",
+        id: "an-new-fangled-ending"
+      },
+            {
+        title: "A New Ordinary Ending",
+        excerpt: "This is perfectly normal",
+        content: "Curabitur non nulla sit amet nisl tempus convallis quis ac lectus. Vivamus suscipit tortor eget felis porttitor volutpat. Vivamus suscipit tortor eget felis porttitor volutpat. Proin eget tortor risus. Donec rutrum congue leo eget malesuada. Curabitur aliquet quam id dui posuere blandit.",
+        thumbnailURL: "https://picsum.photos/400/300",
+        id: "an-ordinary-ending"
+      }
+
+      ]
+    }
+  }
+}
 </script>
 
-<style>
-.container {
-  margin: 0 auto;
-  min-height: 100vh;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
-}
-
-.title {
-  font-family:
-    'Quicksand',
-    'Source Sans Pro',
-    -apple-system,
-    BlinkMacSystemFont,
-    'Segoe UI',
-    Roboto,
-    'Helvetica Neue',
-    Arial,
-    sans-serif;
-  display: block;
-  font-weight: 300;
-  font-size: 100px;
-  color: #35495e;
-  letter-spacing: 1px;
-}
-
-.subtitle {
-  font-weight: 300;
-  font-size: 42px;
-  color: #526488;
-  word-spacing: 5px;
-  padding-bottom: 15px;
-}
-
-.links {
-  padding-top: 15px;
+<style scoped>
+a {
+    text-decoration: none;
+    color: rgb(47, 49, 54);
 }
 </style>

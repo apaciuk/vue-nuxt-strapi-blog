@@ -1,5 +1,5 @@
 <template>
-    <div class="container">
+    <div class="uk-container uk-container-expand">
     <div>
     
       <h2>
