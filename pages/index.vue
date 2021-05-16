@@ -1,10 +1,9 @@
 <template>
 <!--CARDS WRAPPER-->
  <div class="uk-container uk-container-expand">
-  <h1 class="uk-text-center uk-text-uppercase uk-text-bold uk-heading-bullet">Vue UIKit Storyblok Blog</h1>
+  <h1 class="uk-text-center uk-text-uppercase uk-text-bold uk-heading-bullet">Vue UIKit Strapi Blog</h1>
  <div class="uk-grid uk-grid-medium uk-child-width-1-2@s uk-child-width-1-3@m uk-child-width-1-4@l  uk-child-width-1-5@xl uk-grid-match js-filter" data-uk-grid="masonry: true" data-uk-sortable="handle: .drag-icon">
-
-  <PostPreview v-for="post in posts"
+ <PostPreview v-for="post in posts"
    :key="post.id"
    :title="post.title"
    :excerpt="post.excerpt"
@@ -60,7 +59,6 @@ export default {
   }
 }
 </script>
-
 <style scoped>
 a {
     text-decoration: none;

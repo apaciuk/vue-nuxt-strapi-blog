@@ -3,7 +3,7 @@
     <div>
     
       <h2>
-        Single Blog
+        Single Blog Page
       </h2>
       <div class="links">
         <a

@@ -1,5 +1,5 @@
 <template>
-    <div class="container">
+    <div class="uk-container uk-container-expand">
     <div>
        <h2>
         About
@@ -24,5 +24,4 @@
       </div>
     </div>
   </div>
-    </section>
 </template>

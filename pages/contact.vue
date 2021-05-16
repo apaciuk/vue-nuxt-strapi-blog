@@ -1,7 +1,7 @@
 <template>
-<div class="container">
+    <div class="uk-container uk-container-expand">
     <div>
-      <h2>
+       <h2>
         Contact
       </h2>
       <div class="links">
