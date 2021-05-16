@@ -39,6 +39,7 @@ plugins: [
     // https://go.nuxtjs.dev/pwa
     '@nuxtjs/pwa',
     '@nuxtjs/strapi'
+    // '@nuxt/storyblok', {accessToken: 'uyeu888r99euju8i', cacheProvider: 'memory'}
   
   ],
   strapi: {
