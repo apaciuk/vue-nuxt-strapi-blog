@@ -2,7 +2,7 @@
   "name": "blog-backend",
   "private": true,
   "version": "0.1.0",
-  "description": "A Strapi application",
+  "description": "A Strapi Blog Backend",
   "scripts": {
     "develop": "strapi develop",
     "start": "strapi start",
@@ -26,7 +26,7 @@
     "strapi-utils": "3.6.1"
   },
   "author": {
-    "name": "A Strapi developer"
+    "name": "Paul Anthony McGowan"
   },
   "strapi": {
     "uuid": "e14600a3-e5f6-445b-b0f6-0054d4da317a"

@@ -2,7 +2,7 @@
   "name": "vue-nuxt-storyblok-blog",
   "version": "1.0.0",
   "private": true,
-  "description": "Vue Blog using UIKit 3, Nuxt Js and Vue JS, Storyblok for  back-end, Auth0, Axios, PWA, Jest, with Off Canvas and other UIKit components",
+  "description": "Vue Blog using UIKit 3, Nuxt Js and Vue JS, Strapi API for  back-end, Auth0, Axios, PWA, Jest, with Off Canvas and other UIKit components",
   "repository": {
     "type": "git",
     "url": "git+ssh://git@github.com/xhostcom/vue-nuxt-storyblok-blog.git"
