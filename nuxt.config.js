@@ -42,7 +42,10 @@ plugins: [
   
   ],
   strapi: {
-    httpEndpoint: 'http://localhost:1337/'
+    url: 'process.env.STRAPI_URL || http://localhost:1337',
+    entities: [
+      { name: 'homepage', type: 'single' }
+    ]
   },
   auth: {
     redirect: {
