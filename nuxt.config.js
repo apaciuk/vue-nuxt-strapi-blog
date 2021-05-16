@@ -38,8 +38,13 @@ plugins: [
     // https://go.nuxtjs.dev/axios
     '@nuxtjs/axios',
     // https://go.nuxtjs.dev/pwa
-    '@nuxtjs/pwa'
+    '@nuxtjs/pwa',
+    '@nuxtjs/strapi'
+  
   ],
+  strapi: {
+    // Options
+  },
   auth: {
     redirect: {
       login: '/', // redirect user when not connected

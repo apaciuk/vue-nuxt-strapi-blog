@@ -5,7 +5,7 @@
     class="uk-height-medium uk-flex uk-flex-center uk-flex-middle uk-background-cover uk-light" :data-src="thumbnailURL" uk-img>
     </div>
      <div class="post-preview-content">
-      <h1 class="uk-article-title uk-margin-top">{{ title }}</h1>
+      <h2 class="uk-article-title uk-margin-top">{{ title }}</h2>
       <p class="uk-text-lead">{{ excerpt }}</p>
       <p>{{ content }}</p>
     </div>
