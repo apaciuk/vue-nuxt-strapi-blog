@@ -1,7 +1,6 @@
 export default {
   // Target: https://go.nuxtjs.dev/config-target
   target: 'static',
-
   // Global page headers: https://go.nuxtjs.dev/config-head
   head: {
     title: 'vue-nuxt-strapi-blog',
@@ -43,7 +42,7 @@ plugins: [
   
   ],
   strapi: {
-    // Options
+    httpEndpoint: 'http://localhost:1337/'
   },
   auth: {
     redirect: {
@@ -61,7 +60,7 @@ plugins: [
   // Axios module configuration: https://go.nuxtjs.dev/config-axios
  axios: {
     // extra config e.g
-    // BaseURL: 'https://link-to-API'
+    BaseURL: 'http://localhost:1337'
  },
 
   // PWA module configuration: https://go.nuxtjs.dev/pwa
